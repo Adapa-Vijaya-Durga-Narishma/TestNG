@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite"  >
+	 <test name="Pom">
+		<classes>
+			<class name="PageObjectModel.MainPage"></class>
+			<class name="PageObjectModel.LandingPage"></class>
+			<class name="PageObjectModel.ProductCatalog"></class>
+			<class name="POM_AbstractPackage.AbstractClass"></class>
+		</classes>
+	</test>
+</suite>

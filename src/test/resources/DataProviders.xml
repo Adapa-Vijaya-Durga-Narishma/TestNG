@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite"  >
+	 <test name="DataProvidersEx">
+		<classes>
+			<class name="DataProvidersExamples.LoginEx1"></class>
+		</classes>
+	</test>
+	
+	<!--
+	<test name="DataProvidersEx">
+		<classes>
+			<class name="DataProvidersExamples.TestExcel"></class>
+		</classes>
+	</test>
+	-->
+</suite>

@@ -1,0 +1,175 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite"  >
+	<!--<listeners>
+		<listener class-name="UdemySectio16.Listeners"></listener>
+	</listeners> -->
+	
+	<!--
+	<test name="test1">
+		<classes>
+		            <class name="firstPackage.TestHelloWorld"/>
+		</classes>
+	</test>
+	<test name="test2">
+		<classes>
+	            <class name="firstPackage.Ex1_Priority"/>
+
+		</classes>
+	</test>
+    <test name="MyTest">
+			<groups>
+		<run>
+			<include name="demo.*"></include>
+		</run>
+	</groups>
+
+        <classes>
+            
+            <class name="firstPackage.Groups_Ex1"/>
+        </classes>
+    </test>
+    -->
+    
+    <!--
+    <test name="DependsOnMethods">
+		<classes>
+			<class name="dependsOn.Ex1_DependsOnMethod"/>
+		</classes>
+	</test>
+	
+	<test name="DependsOnGroups">
+		<classes>
+			<class name="dependsOn.Ex2_DependsOnGroups"/>
+		</classes>
+	</test>
+	
+	<test name="SingleDependentMethod">
+		<classes>
+			<class name="dependsOn.Ex3_SingleDependentMethod"></class>
+		</classes>
+	</test>
+	
+	<test name="MultipleDependentTests">
+		<classes>
+			<class name="dependsOn.Ex4_MultipleDependentTests"></class>
+		</classes>
+	</test>
+	
+	<test name="InheritedDependentTests">
+		<classes>
+			<class name="dependsOn.Ex5_InheritedDependentTests"></class>
+		</classes>
+	</test>
+	
+	<test name="GroupDependentTests">
+		<classes>
+			<class name="dependsOn.Ex6_GrouppDependentTests"></class>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="GroupXML">
+		<groups>
+			<dependencies>
+				<group name="SIGNIN" depends-on="OPENBROWSER"></group>
+				<group name="LOGOUT" depends-on="SIGNIN"></group>
+			</dependencies>
+		</groups>
+		<classes>
+			<class name="dependsOn.Ex7_GroupInXML"></class>
+		</classes>
+	</test> -->
+	
+	
+	<!--
+	<test name="UdemySectio-16">
+		<parameter name="URL1" value="qa1.com"></parameter>
+		<parameter name="URL2" value="qa2.com"></parameter>
+		<classes>
+			 <class name="UdemySectio16.HelperAttribute_EnabledFalse"></class>  
+			 <class name="UdemySectio16.HelperAttribute_TimeOut"></class>      
+			 <class name="UdemySectio16.Ex1_Parametirization_FromXML"></class>
+			
+			 <class name="UdemySectio16.Ex2_Parametirization_ByDataProviders"></class> 
+			 <class name="UdemySectio16.Listeners"></class>
+			 <class name="UdemySectio16.Reports"></class> 
+			 <class name="UdemySectio16.Ex3_DataProviderWithMethodAsParameter"></class> 
+		</classes>
+	</test> 
+	-->
+	
+	<!-- <test name="test2">
+		<classes>
+	            <class name="firstPackage.Ex1_Priority"/>
+		</classes>
+	</test>
+	-->
+	
+	<!--
+	<test name="PriorityWebsite">
+		<classes>
+			<class name="Priorities.PrioritizedTests"></class>
+		</classes>
+	</test>
+	-->
+	
+	<!--
+	<test name="Assertions">
+		<classes>
+			<class name="Assertions.Assert_Ex1"></class>
+		</classes>
+	</test>
+	-->
+	
+	<!--
+	<test name="Assertions">
+		<classes>
+			<class name="Assertions.Assert_SoftAssertion"></class>
+		</classes>
+	</test>
+	-->
+	
+	<!--
+	<test name="Firefox">
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="CrossBrowersExamples.Ex1"></class>
+		</classes>
+	</test>
+    <test name="Chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="CrossBrowersExamples.Ex1"></class>
+		</classes>
+	</test>
+	-->
+	
+	<!-- <test name="ParallelExecution" parallel="methods" thread-count="2">
+		<classes>
+			<class name="CrossBrowersExamples.Ex2_ParallelExecution"></class> 
+			<class name="CrossBrowersExamples.Ex3_ThreadCount"></class>
+		</classes> 
+	</test>
+	-->
+	
+	<!--
+	<test name="ParallelExecution1" >
+		<classes>
+			  <class name="CrossBrowersExamples.Ex2_ParallelExecution"></class> 
+			<class name="CrossBrowersExamples.Ex3_ThreadCount"></class>
+			<class name="CrossBrowersExamples.Ex4_ParallelTestSuites"></class>
+		</classes> 
+	</test>
+	<test name="ParallelExecution2">
+		<classes>
+			<class name="CrossBrowersExamples.Ex4_ParallelTestSuites"></class>
+		</classes> 
+	</test>
+	-->
+	
+	<test name="Reports">
+		<classes>
+			<!-- <class name="Reports.EmailReport"></class> -->
+			<class name="Reports.ReporterClass"></class>
+		</classes>
+	</test>
+</suite>
